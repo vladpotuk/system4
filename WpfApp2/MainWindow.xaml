@@ -1,0 +1,12 @@
+﻿<Window x:Class="Wpf2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wpf2" Height="350" Width="525">
+    <Grid>
+        <ListBox Name="lstNumbers" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBox Name="txtMax" HorizontalAlignment="Left" Height="23" Margin="10,220,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True" Text="Максимум"/>
+        <TextBox Name="txtMin" HorizontalAlignment="Left" Height="23" Margin="10,250,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True" Text="Мінімум"/>
+        <TextBox Name="txtAverage" HorizontalAlignment="Left" Height="23" Margin="10,280,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True" Text="Середнє арифметичне"/>
+        <Button Content="Запустити" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="btnGenerateAndCalculate_Click"/>
+    </Grid>
+</Window>
